@@ -1,17 +1,17 @@
 # extensions-configuration
 
-Exposes some configuration utilities including legacy xml files support.
+Exposes configuration factory including legacy xml files support.
 
  | Package | NuGet |
  | ------- | ----- |
- | Extensions.Config | [![Nuget](https://img.shields.io/badge/nuget-v1.0.0-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Config)](https://www.nuget.org/packages/Extensions.Config/1.0.0) |
+ | Extensions.Configuration.Factory | [![Nuget](https://img.shields.io/badge/nuget-v1.0.0-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Configuration.Factory)](https://www.nuget.org/packages/Extensions.Configuration.Factory/1.0.0) |
 
 ## Installation
 
 It is available on Nuget.
 
 ```
-Install-Package Extensions.Config -Version 1.0.0
+Install-Package Extensions.Configuration.Factory -Version 1.0.0
 ```
 
 ## Usage
