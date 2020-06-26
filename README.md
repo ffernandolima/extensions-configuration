@@ -16,7 +16,7 @@ Install-Package Extensions.Configuration.Factory -Version 1.0.0
 
 ## Usage
 
-The following code demonstrates basic usage of modules.
+The following code demonstrates basic usage of configuration factory.
 
 appsettings.json:
 ```JSON
