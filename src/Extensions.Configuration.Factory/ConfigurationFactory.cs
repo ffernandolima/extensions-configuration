@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 
-namespace Extensions.Configuration
+namespace Extensions.Configuration.Factory
 {
     public class ConfigurationFactory
     {

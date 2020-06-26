@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Extensions.Configuration\Extensions.Configuration.csproj" />
+        <ProjectReference Include="..\..\src\Extensions.Configuration.Factory\Extensions.Configuration.Factory.csproj" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net471'">

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Configuration;
 
-namespace Extensions.Configuration
+namespace Extensions.Configuration.Factory
 {
     public class XmlConfigurationProvider : ConfigurationProvider, IConfigurationSource
     {

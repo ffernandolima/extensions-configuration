@@ -1,3 +1,4 @@
+using Extensions.Configuration.Factory;
 using Xunit;
 
 namespace Extensions.Configuration.Tests
