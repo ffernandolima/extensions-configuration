@@ -38,7 +38,7 @@ App/Web.Config:
 ```
 
 ```C#
-var config = ConfigurationFactory.GetConfiguration();
+var config = ConfigurationFactory.Instance.GetConfiguration();
 var value = config["ParentKey"];
 ```
 
