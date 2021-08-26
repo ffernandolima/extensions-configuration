@@ -23,7 +23,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A987A599
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Configuration.Tests", "tests\Extensions.Configuration.Tests\Extensions.Configuration.Tests.csproj", "{4BCDB28C-73C1-4164-AD38-7D3AC1095142}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions.Configuration.Factory", "src\Extensions.Configuration.Factory\Extensions.Configuration.Factory.csproj", "{A4301B90-C3EC-4EF1-BE07-BC53DEB77154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Configuration.Factory", "src\Extensions.Configuration.Factory\Extensions.Configuration.Factory.csproj", "{A4301B90-C3EC-4EF1-BE07-BC53DEB77154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FD62633B-241A-4985-A52C-8D0C3A43C4E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{2EC05DB3-DBA3-44D6-A052-281D9E0C978B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-and-publish.yml = .github\workflows\build-and-publish.yml
+		.github\workflows\build-and-tests.yml = .github\workflows\build-and-tests.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4BCDB28C-73C1-4164-AD38-7D3AC1095142} = {A987A599-18D6-48E8-B0F9-17A96D0F8C28}
 		{A4301B90-C3EC-4EF1-BE07-BC53DEB77154} = {B7948C44-B49C-4D08-A429-2987C0DC4915}
+		{2EC05DB3-DBA3-44D6-A052-281D9E0C978B} = {FD62633B-241A-4985-A52C-8D0C3A43C4E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDD16242-851A-415C-92AD-11FE99FE9050}
