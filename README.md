@@ -2,6 +2,10 @@
 
 Exposes configuration factory including legacy xml files support.
 
+[![build-and-tests Workflow Status](https://github.com/ffernandolima/extensions-configuration/actions/workflows/build-and-tests.yml/badge.svg?branch=master)](https://github.com/ffernandolima/extensions-configuration/actions/workflows/build-and-tests.yml?branch=master)
+
+[![build-and-publish Workflow Status](https://github.com/ffernandolima/extensions-configuration/actions/workflows/build-and-publish.yml/badge.svg?branch=master)](https://github.com/ffernandolima/extensions-configuration/actions/workflows/build-and-publish.yml?branch=master)
+
  | Package | NuGet |
  | ------- | ----- |
  | Extensions.Configuration.Factory | [![Nuget](https://img.shields.io/badge/nuget-v2.2.1-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Configuration.Factory)](https://www.nuget.org/packages/Extensions.Configuration.Factory/2.2.1) |
