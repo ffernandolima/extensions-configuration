@@ -18,6 +18,8 @@ jobs:
       with:
         nuget-api-key: ${{ secrets.NUGET_API_KEY }}
         nuget-version: 'latest'
+    - name: Navigate to Workspace
+      run: cd $GITHUB_WORKSPACE
     - name: Restore dependencies
       run: nuget.exe restore Extensions.Configuration.sln
     - name: Build
